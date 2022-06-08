@@ -405,3 +405,63 @@ footer .final {
     padding-bottom: 30px;
 }
 
+/* ajustes de responsividade */ 
+
+@media (max-width: 576px) {
+    nav ul li {
+        display: none;
+    }
+
+    .header-block img {
+        width: 70%;
+        position: absolute;
+        right: 16%;
+        top: 30%;
+    }
+
+    .header-block text {
+        position: absolute;
+        bottom: 10%;
+        left: 15;
+
+    }
+
+    .about{
+        margin-top: 100px;
+    }
+
+    .about-content{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .esquerda{
+        display: none;
+    }
+
+    .direita{
+        width: 90%;
+    }
+
+    .direita p{
+        width: 100%;
+        margin: 0px;
+        text-align: left;
+    }
+
+    footer{
+        height: 100%;
+    }
+
+    footer .main {
+        height: 100%;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        padding-left: 10%;
+    }
+}
+
+
+
