@@ -412,18 +412,27 @@ footer .final {
         display: none;
     }
 
-    .header-block img {
-        width: 70%;
-        position: absolute;
-        right: 16%;
-        top: 30%;
+    .content {
+        width: 100%;
     }
+
+    .header-block{
+        width: 100%;
+    }
+
+    .header-block img {
+        width: 50%;
+        position: absolute
+        
+    }
+
+    
 
     .header-block text {
         position: absolute;
         bottom: 10%;
         left: 15;
-
+        
     }
 
     .about{
@@ -433,6 +442,11 @@ footer .final {
     .about-content{
         flex-direction: column;
         height: 100%;
+    }
+
+    .about img {
+        width: 50%;
+        position: absolute;
     }
 
     .esquerda{
